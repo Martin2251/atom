@@ -1,0 +1,60 @@
+baseurl         = "https://atom-digital.netlify.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Atom Digital"
+  subtitle    = "Welcome to Atom Digital"
+
+  cover       = "img/blog-cover.jpg"
+  description = "A display of Atom Digital."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "m_art_in_lowe"
+  fbName = "martin.lowe.56"
+  githubName = "Martin2251"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "ML"
+  authorAvatar = "img/profile-picture.jpg"
+  authorLocation = "London, UK"
+  authorWebsite = "https://martinlowe.netlify.app/"
+  authorDescription = "Full Stack Web-developer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Project"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "About me "
+  url = "/categories/about/"
+  weight = 99
+
+[[menu.main]]
+  name = "My Website"
+  url = "https://martinlowe.netlify.app/"
+  weight = 95
