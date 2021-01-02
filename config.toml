@@ -9,7 +9,7 @@ paginate        = 6
   title       = "Atom Digital"
   subtitle    = "Welcome to Atom Digital"
 
-  cover       = "img/blog-cover.jpg"
+  cover       = "uploads/header.jpg"
   description = "A display of Atom Digital."
   metaDescription = ""
   googleAnalytics = ""
@@ -25,8 +25,8 @@ paginate        = 6
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
-  author = "ML"
-  authorAvatar = "img/profile-picture.jpg"
+  author = "Martin Lowe"
+  authorAvatar = "uploads/profile.jpg"
   authorLocation = "London, UK"
   authorWebsite = "https://martinlowe.netlify.app/"
   authorDescription = "Full Stack Web-developer"
